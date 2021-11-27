@@ -9,6 +9,7 @@ pipeline {
                 sh 'docker -H tcp://docker.for.mac.localhost:3375 build -t sumitkaushik445/nginx ./nginx'
                 sh 'docker -H tcp://docker.for.mac.localhost:3375 build -t sumitkaushik445/server ./server'
                 sh 'docker -H tcp://docker.for.mac.localhost:3375 build -t sumitkaushik445/worker ./worker'
+                sh 'docker login -u sumitkaushik445 -p 94251@Sumit'
             }
         }
     }
