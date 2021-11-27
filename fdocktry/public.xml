@@ -1,5 +1,0 @@
-<service name="dhcpv6-client"/>
-<rule family="ipv4">
-<source address="172.27.0.0/16"/>
-<accept/>
-</rule>

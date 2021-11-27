@@ -1,9 +1,0 @@
-version: '3' #docker compose version
-#It is saying container a type of container
-services:
-  redis-server:
-    image: 'redis'
-  bootclient:
-    build: . #Here we are saying that we have to build the image from the code
-    ports:
-      - "7070:8080" #Here we are passing the hyphen to show we are passing an array
